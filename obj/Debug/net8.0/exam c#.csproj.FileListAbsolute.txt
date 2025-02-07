@@ -12,3 +12,4 @@ C:\Users\sarth\OneDrive\Desktop\exam c#\obj\Debug\net8.0\refint\exam c#.dll
 C:\Users\sarth\OneDrive\Desktop\exam c#\obj\Debug\net8.0\exam c#.pdb
 C:\Users\sarth\OneDrive\Desktop\exam c#\obj\Debug\net8.0\exam c#.genruntimeconfig.cache
 C:\Users\sarth\OneDrive\Desktop\exam c#\obj\Debug\net8.0\ref\exam c#.dll
+C:\Users\sarth\OneDrive\Desktop\exam c#\obj\Debug\net8.0\exam c#.sourcelink.json
