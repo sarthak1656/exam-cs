@@ -61,22 +61,33 @@ class BB
 
         for (int i = 0; i < n - 1; i++)
         {
-            for (int j = 0; j < n - i - 1; j++)
-            {
-                if (arr[j] > arr[j + 1])
-                {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-                }
-            }
+            Console.WriteLine("The temperature is classified as: Hot");
         }
-
-
-
-        foreach (int num in arr)
+        else
         {
-            System.Console.Write(num + " ");
+            Console.WriteLine("The temperature is classified as: Scorching");
+        }
+    }
+}
+
+
+class P
+{
+    static void Main()
+    {
+        System.Console.WriteLine("Enter the number of rows: ");
+        int n = int.Parse(Console.ReadLine());
+        for (int i = 1; i <= n; i++)
+        {
+            for (int j = i; j <=n; j++)
+            {
+                System.Console.Write(" ");
+            }
+            for (int k = 1; k <= (2*i-1); k++)
+            {
+                System.Console.Write(k);
+            }
+            System.Console.WriteLine();
         }
     }
 
